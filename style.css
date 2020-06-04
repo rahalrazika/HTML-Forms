@@ -15,10 +15,12 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: var(--btn-blue);
 }
+
 li {
   list-style: none;
 }
@@ -28,10 +30,12 @@ body {
   background: var(--grey-body);
   font-style: 14px;
 }
+
 label {
   display: block;
   margin-bottom: 0.5rem;
 }
+
 input {
   width: 100%;
   padding: 0.7rem 1.2rem;
@@ -47,6 +51,7 @@ input {
   padding: 0.3rem 1.2rem;
   font-size: 0.9rem;
 }
+
 .lock-icon {
   width: 0.8rem;
   margin-right: 0.3rem;
@@ -63,9 +68,11 @@ input {
   font-size: 0.7rem;
   padding: 1rem 2rem;
 }
+
 .sign-info p {
   margin-right: 0.4rem;
 }
+
 .sign-info a {
   color: var(--btn-blue);
   font-weight: 100;
@@ -84,10 +91,12 @@ input {
   width: 25rem;
   font-size: 0.8rem;
 }
+
 form {
   background: var(--white);
   border: 1px solid #c7c7c7;
 }
+
 #form-header {
   text-align: center;
   margin-bottom: 0.8rem;
@@ -97,15 +106,18 @@ form {
 .form-logo {
   text-align: center;
 }
+
 h1 {
   font-size: 1.5rem;
   color: var(--black);
   font-weight: 300;
   margin: 0.5rem;
 }
+
 #form-body {
   padding: 1rem 2rem;
 }
+
 
 #terms {
   font-style: italic;
@@ -115,6 +127,7 @@ h1 {
   padding: 2rem;
   color: var(--grey-btn-color);
 }
+
 .submit-btn {
   padding: 0.7rem 1.2rem;
   width: 100%;
@@ -127,6 +140,7 @@ h1 {
   padding: 1rem 2rem;
   text-align: center;
 }
+
 #form-footer p {
   font-size: 0.6rem;
   color: var(--grey-btn-color);
@@ -137,16 +151,20 @@ h1 {
   margin-top: 2rem;
   line-height: 1.8;
 }
+
 .footer-links {
   display: flex;
   justify-content: center;
 }
+
 .footer-links li a {
   margin-right: 1rem;
 }
+
 .footer-links li a:hover {
   text-decoration: underline;
 }
+
 #footer p,
 .footer-links li a {
   font-size: 0.9rem;
