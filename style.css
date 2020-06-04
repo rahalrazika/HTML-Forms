@@ -17,6 +17,10 @@
 }
 a {
   text-decoration: none;
+
+}
+li{
+  list-style:none;
 }
 
 /* Base Styles */
@@ -117,4 +121,23 @@ h1 {
   text-align: center;
 
  
+}
+
+#footer{
+  text-align: center;
+  margin-top: 2rem;
+  
+}
+.footer-links{
+  display: flex;
+  justify-content:center ;
+
+
+}
+.footer-links li a{
+  margin-right:1rem;
+  color:#4c4c4c;
+}
+#footer p,.footer-links li a {
+  font-size: .8rem;
 }
