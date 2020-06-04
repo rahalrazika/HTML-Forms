@@ -18,11 +18,20 @@ a {
   text-decoration: none;
 }
 
+/* Base Styles */
 body {
   background: #eceef1;
   font-style: 14px;
 }
-/* Base Styles */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input,
+.submit-btn {
+  width: 100%;
+  padding: 0.3rem 1.2rem;
+}
 .btn {
   cursor: pointer;
   border-radius: 0.3rem;
@@ -34,6 +43,10 @@ body {
 .lock-icon {
   width: 0.8rem;
   margin-right: 0.3rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
 }
 
 /* Sign in Container styles */
@@ -48,5 +61,23 @@ body {
 }
 .sign-info a {
   color: var(--btn-blue);
+  font-weight: 400;
+}
+
+/* Main container */
+#main-container {
+  margin: auto;
+  width: 23rem;
+}
+form {
+  background: var(--white);
+  padding: 2rem 2rem 0.5rem 2rem;
+}
+#form-header {
+  text-align: center;
+}
+h1 {
+  font-size: 1.5rem;
+  color: var(--black);
   font-weight: 400;
 }

@@ -7,70 +7,79 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <header>
-        <div id="sign-in-container">
-            <div class="sign-info">
-              <p>Already have an Intuit account?</p>
-              <a href="#">I forgot User ID OR Password</a>
-            </div>
-            <button type="submit" class="btn">
-              <img class="lock-icon" src="images/lock.svg" alt="lock" />Sign In
-            </button>
-           
-          </div>
-      </header>
-   
+    <header>
+      <div id="sign-in-container">
+        <div class="sign-info">
+          <p>Already have an Intuit account?</p>
+          <a href="#">I forgot User ID OR Password</a>
+        </div>
+        <button type="submit" class="btn">
+          <img class="lock-icon" src="images/lock.svg" alt="lock" />Sign In
+        </button>
+      </div>
+    </header>
 
     <main>
-        <div id= "main-container">
-         <div class="form-logo">
-        <p>INTUIT</p>
-        <a href="#">mint</a>
-        <a href="#">quikBooks</a>
-        <a href="#">Turbotax</a>
-         </div>
-         <form action="">
-             <div class="form-header">
-                <h1>Create an Intuit account  </h1>
-                <p> One account for everything Intuit, including Mint.
-                    <a href="#">Learn more </a>
-                </p>
-
-             </div>
-          
-             <div class="form-body">
-                 <label for="email">Email address    </label>
-                 <input type="email" id="email" name="email">
-                 <label for="phone">Phone </label>
-                 <input type="text" id="phone" name="phone">
-                 <label for="password">password</label>
-                 <input type="password" id="password" name="passwoed">
-                 <label for="confirm-password">confirm-password</label>
-                 <input type="password" id="confirm-password" name="confirm-password">
-                 <button type="submit">
-                     <img src="images/lock.svg" alt="">
-                    Create a new Account
-                 </button>
-                 <p>
-                    By clicking Create account, you agree to our
-                    <a href="#">Trems</a>
-                        and have read and acknowledge our 
-                         <a href="#">Privacy Statement.</a>
-        
-                 </p>
-             </div>
-             
-             <div class="form-footer">
-                 <p>
-                    Invisible reCAPTCHA by Google <a href="#">Privacy Policy </a>and <a href="#">Terms of Use.</a>
-                 </p>
-             
-             </div>
-             <input type="text">
-         </form>
+      <div id="main-container">
+        <div class="form-logo">
+          <p>INTUIT</p>
+          <a href="#">mint</a>
+          <a href="#">quikBooks</a>
+          <a href="#">Turbotax</a>
         </div>
- 
+        <form action="">
+          <div id="form-header">
+            <h1>Create an Intuit account</h1>
+            <p>
+              One account for everything Intuit, including Mint.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+
+          <div id="form-body">
+            <div class="form-group">
+              <label for="email">Email address </label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone (recommended) </label>
+              <input type="text" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="password">password</label>
+              <input type="password" id="password" name="passwoed" />
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">confirm-password</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+              />
+            </div>
+
+            <button type="submit" class="btn submit-btn">
+              <img class="lock-icon" src="images/lock.svg" alt="" />
+              Create a new Account
+            </button>
+            <p>
+              By clicking Create account, you agree to our
+              <a href="#">Terms</a>
+              and have read and acknowledge our
+              <a href="#">Privacy Statement.</a>
+            </p>
+          </div>
+
+          <div id="form-footer">
+            <p>
+              Invisible reCAPTCHA by Google <a href="#">Privacy Policy </a>and
+              <a href="#">Terms of Use.</a>
+            </p>
+          </div>
+          
+        </form>
+      </div>
     </main>
-   <footer></footer>
+    <footer></footer>
   </body>
 </html>
