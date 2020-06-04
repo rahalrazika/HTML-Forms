@@ -4,6 +4,7 @@
   --btn-blue: #0077c5;
   --black: #4c4c4c;
   --grey-btn-color: #6b6b72;
+  --grey-body: #eceef1;
   --white: #fff;
 }
 
@@ -20,7 +21,7 @@ a {
 
 /* Base Styles */
 body {
-  background: #eceef1;
+  background: var(--grey-body);
   font-style: 14px;
 }
 label {
@@ -98,4 +99,9 @@ h1 {
   padding: 0.7rem 1.2rem;
   width: 100%;
   border: 0;
+}
+
+#form-footer {
+  background: var(--grey-body);
+  width: 100%;
 }
