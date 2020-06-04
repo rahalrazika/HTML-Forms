@@ -2,7 +2,7 @@
 
 
 
-![screenshot](images/Screenshot.png)
+![screenshot](images/Screenshot.PNG)
 
 This project was created to strengthen knowledge of forms in a website using the mint.com's page as a guide.
 
