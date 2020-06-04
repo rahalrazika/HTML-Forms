@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --btn-blue: #0077c5;
+  --black: #4c4c4c;
+  --grey-btn-color: #6b6b72;
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #eceef1;
+  font-style: 14px;
+}
+/* Base Styles */
+.btn {
+  cursor: pointer;
+}
+.lock-icon {
+  width: 1rem;
+}
+
+/* Sign in Container styles */
+#sign-in-container {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+
+#sign-in-container button {
+  background: #505050;
+}
