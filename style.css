@@ -118,7 +118,6 @@ h1 {
   padding: 1rem 2rem;
 }
 
-
 #terms {
   font-style: italic;
   line-height: 2;
@@ -157,6 +156,12 @@ h1 {
   justify-content: center;
 }
 
+#footer p,
+.footer-links li a {
+  font-size: 0.9rem;
+  color: var(--black);
+}
+
 .footer-links li a {
   margin-right: 1rem;
 }
@@ -165,11 +170,6 @@ h1 {
   text-decoration: underline;
 }
 
-#footer p,
-.footer-links li a {
-  font-size: 0.9rem;
-  color: var(--black);
-}
 
 #footer-btn {
   position: fixed;
