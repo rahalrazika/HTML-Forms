@@ -4,6 +4,7 @@
   --btn-blue: #0077c5;
   --black: #4c4c4c;
   --grey-btn-color: #6b6b72;
+  --white: #fff;
 }
 
 /* Resets */
@@ -24,18 +25,28 @@ body {
 /* Base Styles */
 .btn {
   cursor: pointer;
+  border-radius: 0.3rem;
+  color: var(--white);
+  background: var(--btn-blue);
+  padding: 0.3rem 1.2rem;
+  font-size: 0.9rem;
 }
 .lock-icon {
-  width: 1rem;
+  width: 0.8rem;
+  margin-right: 0.3rem;
 }
 
 /* Sign in Container styles */
 #sign-in-container {
   display: flex;
   justify-content: flex-end;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  padding: 1rem 2rem;
 }
-
-#sign-in-container button {
-  background: #505050;
+.sign-info p {
+  margin-right: 0.4rem;
+}
+.sign-info a {
+  color: var(--btn-blue);
+  font-weight: 400;
 }
