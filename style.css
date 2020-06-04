@@ -31,6 +31,8 @@ input,
 .submit-btn {
   width: 100%;
   padding: 0.3rem 1.2rem;
+  border: 1px solid #c1c5c8;
+  border-radius: 0.3rem;
 }
 .btn {
   cursor: pointer;
@@ -45,8 +47,9 @@ input,
   margin-right: 0.3rem;
 }
 
-.form-group {
-  margin-bottom: 2rem;
+.form-group,
+.submit-btn {
+  margin-bottom: 1.5rem;
 }
 
 /* Sign in Container styles */
@@ -68,6 +71,7 @@ input,
 #main-container {
   margin: auto;
   width: 23rem;
+  font-size: 0.8rem;
 }
 form {
   background: var(--white);
@@ -80,4 +84,7 @@ h1 {
   font-size: 1.5rem;
   color: var(--black);
   font-weight: 400;
+}
+.submit-btn {
+  margin-bottom: 1.2rem;
 }
