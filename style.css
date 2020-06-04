@@ -23,6 +23,7 @@ a {
 body {
   background: var(--grey-body);
   font-style: 14px;
+
 }
 label {
   display: block;
@@ -75,17 +76,25 @@ input {
 }
 form {
   background: var(--white);
-  padding: 1rem 2rem 0.5rem 2rem;
+  border: 1px solid #c7c7c7;
 }
 #form-header {
   text-align: center;
   margin-bottom: 0.8rem;
+  padding: 1rem 2rem;
+
 }
+
 h1 {
   font-size: 1.5rem;
   color: var(--black);
   font-weight: 300;
   margin: 0.5rem;
+}
+#form-body{
+
+  padding: 1rem 2rem;
+
 }
 
 #terms {
@@ -104,4 +113,8 @@ h1 {
 #form-footer {
   background: var(--grey-body);
   width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+
+ 
 }
