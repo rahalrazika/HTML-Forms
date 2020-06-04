@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
 :root {
   --btn-blue: #0077c5;
@@ -27,13 +27,13 @@ label {
   display: block;
   margin-bottom: 0.5rem;
 }
-input,
-.submit-btn {
+input {
   width: 100%;
-  padding: 0.3rem 1.2rem;
+  padding: 0.7rem 1.2rem;
   border: 1px solid #c1c5c8;
-  border-radius: 0.3rem;
+  border-radius: 0.2rem;
 }
+
 .btn {
   cursor: pointer;
   border-radius: 0.3rem;
@@ -47,8 +47,7 @@ input,
   margin-right: 0.3rem;
 }
 
-.form-group,
-.submit-btn {
+.form-group {
   margin-bottom: 1.5rem;
 }
 
@@ -64,27 +63,39 @@ input,
 }
 .sign-info a {
   color: var(--btn-blue);
-  font-weight: 400;
+  font-weight: 100;
 }
 
 /* Main container */
 #main-container {
   margin: auto;
-  width: 23rem;
+  width: 25rem;
   font-size: 0.8rem;
 }
 form {
   background: var(--white);
-  padding: 2rem 2rem 0.5rem 2rem;
+  padding: 1rem 2rem 0.5rem 2rem;
 }
 #form-header {
   text-align: center;
+  margin-bottom: 0.8rem;
 }
 h1 {
   font-size: 1.5rem;
   color: var(--black);
-  font-weight: 400;
+  font-weight: 300;
+  margin: 0.5rem;
+}
+
+#terms {
+  font-style: italic;
+  line-height: 2;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 2rem;
 }
 .submit-btn {
-  margin-bottom: 1.2rem;
+  padding: 0.7rem 1.2rem;
+  width: 100%;
+  border: 0;
 }
