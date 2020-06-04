@@ -17,6 +17,7 @@
 }
 a {
   text-decoration: none;
+  color: var(--btn-blue);
 }
 li {
   list-style: none;
@@ -70,6 +71,13 @@ input {
   font-weight: 100;
 }
 
+/* logo */
+.logo {
+  width: 8rem;
+  fill: var(--grey-btn-color);
+  margin-bottom: 2rem;
+}
+
 /* Main container */
 #main-container {
   margin: auto;
@@ -105,6 +113,7 @@ h1 {
   font-size: 0.8rem;
   text-align: center;
   padding: 2rem;
+  color: var(--grey-btn-color);
 }
 .submit-btn {
   padding: 0.7rem 1.2rem;
@@ -117,6 +126,10 @@ h1 {
   width: 100%;
   padding: 1rem 2rem;
   text-align: center;
+}
+#form-footer p {
+  font-size: 0.6rem;
+  color: var(--grey-btn-color);
 }
 
 #footer {
@@ -138,4 +151,16 @@ h1 {
 .footer-links li a {
   font-size: 0.9rem;
   color: var(--black);
+}
+
+#footer-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 4rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  background: #737373;
+  padding: 0.8rem 1rem;
+  border: 0;
 }
