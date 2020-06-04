@@ -17,17 +17,15 @@
 }
 a {
   text-decoration: none;
-
 }
-li{
-  list-style:none;
+li {
+  list-style: none;
 }
 
 /* Base Styles */
 body {
   background: var(--grey-body);
   font-style: 14px;
-
 }
 label {
   display: block;
@@ -86,19 +84,19 @@ form {
   text-align: center;
   margin-bottom: 0.8rem;
   padding: 1rem 2rem;
-
 }
 
+.form-logo {
+  text-align: center;
+}
 h1 {
   font-size: 1.5rem;
   color: var(--black);
   font-weight: 300;
   margin: 0.5rem;
 }
-#form-body{
-
+#form-body {
   padding: 1rem 2rem;
-
 }
 
 #terms {
@@ -119,25 +117,25 @@ h1 {
   width: 100%;
   padding: 1rem 2rem;
   text-align: center;
-
- 
 }
 
-#footer{
+#footer {
   text-align: center;
   margin-top: 2rem;
-  
+  line-height: 1.8;
 }
-.footer-links{
+.footer-links {
   display: flex;
-  justify-content:center ;
-
-
+  justify-content: center;
 }
-.footer-links li a{
-  margin-right:1rem;
-  color:#4c4c4c;
+.footer-links li a {
+  margin-right: 1rem;
 }
-#footer p,.footer-links li a {
-  font-size: .8rem;
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+#footer p,
+.footer-links li a {
+  font-size: 0.9rem;
+  color: var(--black);
 }
