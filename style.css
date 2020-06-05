@@ -8,7 +8,6 @@
   --white: #fff;
 }
 
-/* Resets */
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +24,6 @@ li {
   list-style: none;
 }
 
-/* Base Styles */
 body {
   background: var(--grey-body);
   font-style: 14px;
@@ -61,7 +59,6 @@ input {
   margin-bottom: 1.5rem;
 }
 
-/* Sign in Container styles */
 #sign-in-container {
   display: flex;
   justify-content: flex-end;
@@ -78,14 +75,12 @@ input {
   font-weight: 100;
 }
 
-/* logo */
 .logo {
   width: 8rem;
   fill: var(--grey-btn-color);
   margin-bottom: 2rem;
 }
 
-/* Main container */
 #main-container {
   margin: auto;
   width: 25rem;
@@ -169,7 +164,6 @@ h1 {
 .footer-links li a:hover {
   text-decoration: underline;
 }
-
 
 #footer-btn {
   position: fixed;
