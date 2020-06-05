@@ -79,13 +79,22 @@ input {
 }
 
 /* logo */
+
 .logo {
-  width: 8rem;
+  width: 13rem;
   fill: var(--grey-btn-color);
   margin-bottom: 2rem;
 }
+.logos{
+  width: 2rem;
+  margin-right:0.6rem;
+}
+.form-logo p{
+  color:var(--black);
 
-/* Main container */
+}
+
+
 #main-container {
   margin: auto;
   width: 25rem;
@@ -103,8 +112,14 @@ form {
   padding: 1rem 2rem;
 }
 
+.logo-container,.form-logo {
+  display:flex;
+  align-items: center;
+}
 .form-logo {
-  text-align: center;
+ font-size: 1.2rem;
+
+
 }
 
 h1 {
@@ -169,7 +184,6 @@ h1 {
 .footer-links li a:hover {
   text-decoration: underline;
 }
-
 
 #footer-btn {
   position: fixed;
