@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
-
 :root {
   --btn-blue: #0077c5;
   --black: #4c4c4c;
@@ -30,6 +28,13 @@ body {
   font-style: 14px;
 }
 
+h1 {
+  font-size: 1.5rem;
+  color: var(--black);
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
 label {
   display: block;
   margin-bottom: 0.5rem;
@@ -42,6 +47,12 @@ input {
   border-radius: 0.2rem;
 }
 
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 1.8;
+}
+
 .btn {
   cursor: pointer;
   border-radius: 0.3rem;
@@ -50,6 +61,11 @@ input {
   padding: 0.3rem 1.2rem;
   font-size: 0.9rem;
   border: 0;
+}
+
+.info {
+  margin-top: 0.3rem;
+  font-size: 0.4rem;
 }
 
 .lock-icon {
@@ -89,19 +105,21 @@ input {
 }
 
 .logo {
-  width: 13rem;
+  width: 7rem;
   fill: var(--grey-btn-color);
-  margin-bottom: 2rem;
+  margin: 0 9rem;
 }
+
 .logos {
-  width: 2rem;
-  margin-right: 0.6rem;
+  width: 1.5rem;
+  margin-right: 0.3rem;
 }
+
 .form-logo p {
   color: var(--black);
 }
 
-#main-container {
+.main-container {
   margin: auto;
   width: 25rem;
   font-size: 0.8rem;
@@ -112,36 +130,33 @@ form {
   border: 1px solid #c7c7c7;
 }
 
-#form-header {
+.form-header {
   text-align: center;
   margin-bottom: 0.8rem;
   padding: 1rem 2rem;
 }
+
 .logo-container {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .logo-container,
 .form-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
+
 .form-logo {
   font-size: 1.2rem;
+  margin-right: 0.5rem;
 }
 
-h1 {
-  font-size: 1.5rem;
-  color: var(--black);
-  font-weight: 300;
-  margin: 0.5rem;
-}
-
-#form-body {
+.form-body {
   padding: 1rem 2rem;
 }
 
-#terms {
+.terms {
   font-style: italic;
   line-height: 2;
   font-size: 0.8rem;
@@ -155,22 +170,16 @@ h1 {
   width: 100%;
 }
 
-#form-footer {
+.form-footer {
   background: var(--grey-body);
   width: 100%;
   padding: 1rem 2rem;
   text-align: center;
 }
 
-#form-footer p {
+.form-footer p {
   font-size: 0.6rem;
   color: var(--grey-btn-color);
-}
-
-#footer {
-  text-align: center;
-  margin-top: 2rem;
-  line-height: 1.8;
 }
 
 .footer-links {
@@ -178,7 +187,7 @@ h1 {
   justify-content: center;
 }
 
-#footer p,
+.footer-text,
 .footer-links li a {
   font-size: 0.9rem;
   color: var(--black);
@@ -192,7 +201,7 @@ h1 {
   text-decoration: underline;
 }
 
-#footer-btn {
+.footer-btn {
   position: fixed;
   bottom: 0;
   right: 0;
