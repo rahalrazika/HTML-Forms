@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
 
 :root {
   --btn-blue: #0077c5;
@@ -6,13 +6,14 @@
   --grey-btn-color: #6b6b72;
   --grey-body: #eceef1;
   --white: #fff;
+  --font-weight: 400;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 a {
@@ -48,6 +49,7 @@ input {
   background: var(--btn-blue);
   padding: 0.3rem 1.2rem;
   font-size: 0.9rem;
+  border: 0;
 }
 
 .lock-icon {
@@ -62,23 +64,41 @@ input {
 #sign-in-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   font-size: 0.7rem;
-  padding: 1rem 2rem;
+  padding: 0.7rem 2rem;
+  text-align: center;
 }
 
 .sign-info p {
   margin-right: 0.4rem;
+  font-size: 0.5rem;
+  font-weight: var(--font-weight);
+  color: var(--grey-btn-color);
 }
 
 .sign-info a {
   color: var(--btn-blue);
-  font-weight: 100;
+  font-weight: var(--font-weight);
+  font-size: 0.5rem;
+}
+
+.sign-up-btn {
+  border: 1px solid var(--grey-btn-color);
+  padding: 0.4rem 1.2rem;
 }
 
 .logo {
-  width: 8rem;
+  width: 13rem;
   fill: var(--grey-btn-color);
   margin-bottom: 2rem;
+}
+.logos {
+  width: 2rem;
+  margin-right: 0.6rem;
+}
+.form-logo p {
+  color: var(--black);
 }
 
 #main-container {
@@ -97,9 +117,17 @@ form {
   margin-bottom: 0.8rem;
   padding: 1rem 2rem;
 }
+.logo-container {
+  margin-bottom: 1rem;
+}
 
+.logo-container,
 .form-logo {
-  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.form-logo {
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -125,7 +153,6 @@ h1 {
 .submit-btn {
   padding: 0.7rem 1.2rem;
   width: 100%;
-  border: 0;
 }
 
 #form-footer {
@@ -174,5 +201,4 @@ h1 {
   font-weight: 400;
   background: #737373;
   padding: 0.8rem 1rem;
-  border: 0;
 }
