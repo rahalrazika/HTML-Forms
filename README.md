@@ -1,8 +1,6 @@
 # HTML-Forms
 
-
-
-![screenshot](images/Screenshot.png)
+![screenshot](images/mintform.png)
 
 This project was created to strengthen knowledge of forms in a website using the mint.com's page as a guide.
 
@@ -20,8 +18,6 @@ This project was created to strengthen knowledge of forms in a website using the
 **To view this project, download the contents of the repository to your computer or clone the repository and open the index.html file using your preferred browser.**
 
 ## Authors
-
-
 
 👤 **Razika**
 
