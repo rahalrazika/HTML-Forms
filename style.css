@@ -65,7 +65,7 @@ footer {
 
 .info {
   margin-top: 0.3rem;
-  font-size: 0.4rem;
+  font-size: 0.7rem;
 }
 
 .lock-icon {
@@ -88,7 +88,7 @@ footer {
 
 .sign-info p {
   margin-right: 0.4rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   font-weight: var(--font-weight);
   color: var(--grey-btn-color);
 }
@@ -96,7 +96,7 @@ footer {
 .sign-info a {
   color: var(--btn-blue);
   font-weight: var(--font-weight);
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .sign-up-btn {
