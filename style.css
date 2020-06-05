@@ -202,8 +202,7 @@ form {
 }
 
 .footer-btn {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   right: 0;
   margin-right: 4rem;
   font-size: 0.9rem;
